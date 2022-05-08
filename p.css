@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    z-index: 999;
+    font-family:sans-serif;
+}
+header{
+    background-color: red;
+    width:100%;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 200px;
+}
+.logo{
+    text-decoration: none;
+    color: wheat;
+    font-weight: 400;
+    font-size: 40px;
+}
+.nav a{
+color: wheat;
+text-decoration: none;
+font-size: 20px;
+font-weight: 100;
+padding-left: 120px;
+}
+.nav a:hover{
+    color:darksalmon;
+}
+.tit{
+    display: flex;
+    justify-content: center;
+    color: red;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+.cont{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card{
+    width: 11.2m;
+    box-shadow: 0 5px 25px rgb(1 1 1/15%);
+    border-radius: 15px;
+    padding: 20px;
+    margin: 10px;
+    transition:0.7s ease;
+    margin-left: 70px;
+
+    
+}
+.card:hover{
+    transform:scale(1.1);
+}
+.ic{
+    color: red;
+    font-size: 8em;
+    text-align: center;
+
+}
+
+.info h3{
+    color: red;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 10px;
+}
+.info img{
+    width: 30px;
+    height: 25px;
+}
+.info p{
+   font-size: 20px;
+  color: brown;
+}
+.stor-card{ 
+    box-shadow: 0 5px 25px rgba(245, 90, 100, 0.918);
+ 
+    width: 11.2m;
+    padding: 20px;
+    margin: 10px;
+    margin-left: 70px;
+
+    
+}
+.stor-info h3{
+    color: red;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 10px;
+}
+.stor-info p{
+    font-size: 15px;
+   color: brown;
+   text-align: center;
+   padding: 10px;
+ }
+.instal{
+    color: wheat;
+    background-color: red;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 200;
+    display: inline-block;
+    padding: 0.5333em 1.1111em;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+
+
+}
+.co-card{
+    width: 17.25em;
+    box-shadow: 0 5px 25px rgb(1 1 1/15%);
+    border-radius: 15px;
+    padding: 25px;
+    margin: 15px;
+    transition:0.7s ease;
+    margin-left: 200px;
+
+}
+
+.co-info h3{
+    color: red;
+
+    text-align: center;
+}
+.co-info p{
+    color: brown;
+    text-align: center;
+}
+.icoo{
+    font-size: 4.5em;
+    color: red;
+    text-align: center;
+
+}
+.footer {
+    background-color:red;
+    color: rgb(241, 161, 161);
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+}
+.footer_tit span{
+    font-size: 18px;
+    color:wheat;
+}
+.so img{
+    display: inline-block;
+    height: 30px;
+    width: 40px;
+    margin-left:10px;
+  
+    
+}
+
+@media(max-width:1023px){
+    header{
+        padding:12px 20px;
+    }
+    .nav a{
+        padding-left: 10px;
+    } 
+    .tit{
+        
+        font-size: 2.8em;
+
+    }
+    section{
+        padding: 80px 20px;
+    }
+   
+    
+}
+@media(max-width:641px){
+    body{
+        font-size: 12px;
+        
+    }
+}
+ @media(max_width){
+            body{
+                font-size: 10px;
+            }
+        }
